@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+[draggable='true']:active {
+  opacity: 0.3;
+  transition: all 0.2s ease;
+  cursor: grabbing;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
