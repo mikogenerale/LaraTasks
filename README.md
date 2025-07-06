@@ -72,7 +72,7 @@ Authentication is mocked using static data and stored in localStorage. No actual
 
 Sensitive information (like passwords) is stored in plaintext for demonstration only — this is not secure for production.
 
-Tasks and user data are stored in memory or local storage only and will reset on refresh or rebuild.
+Tasks and user data are stored in memory  and will reset on refresh or rebuild.
 
 A backend integration (Node.js, Firebase, or others) is planned for future updates.
 
